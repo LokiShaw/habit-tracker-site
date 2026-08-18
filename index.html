@@ -229,6 +229,8 @@
     margin-top: 14px; display: block;
   }
   .plan-price span { font-size: 0.9rem; font-weight: 500; color: var(--muted); }
+  .plan-link { text-decoration: none; color: inherit; display: block; transition: transform 0.15s ease, box-shadow 0.15s ease; }
+  .plan-link:hover { transform: translateY(-3px); box-shadow: 0 14px 28px -14px rgba(0,0,0,0.18); }
   .plan-desc { color: var(--muted); font-size: 0.9rem; margin-top: 10px; }
 
   /* ---------- FOOTER ---------- */
@@ -382,25 +384,31 @@
       <h2>Free to start. Fair to grow.</h2>
       <p class="pricing-note">Free forever for up to 5 habits, with ads. No account needed to use the app.</p>
       <div class="plans">
-        <div class="plan">
-          <span class="plan-tag">Monthly</span>
-          <div class="plan-name">Pro</div>
-          <span class="plan-price">₹59<span>/month</span></span>
-          <p class="plan-desc">Unlimited habits, no ads, themes, stats, and more.</p>
-        </div>
-        <div class="plan best">
-          <span class="plan-tag">Yearly · Best value</span>
-          <div class="plan-name">Pro</div>
-          <span class="plan-price">₹399<span>/year</span></span>
-          <p class="plan-desc">Same as monthly, at a third of the annual price.</p>
-        </div>
-        <div class="plan">
-          <span class="plan-tag">Lifetime</span>
-          <div class="plan-name">Pro</div>
-          <span class="plan-price">₹799<span> once</span></span>
-          <p class="plan-desc">Pay once. No subscription, ever.</p>
-        </div>
-      </div>
+  <a class="plan-link" href="mailto:ashalokme@gmail.com?subject=Interested%20in%20Monthly%20Pro%20Plan">
+    <div class="plan">
+      <span class="plan-tag">Monthly</span>
+      <div class="plan-name">Pro</div>
+      <span class="plan-price">₹59<span>/month</span></span>
+      <p class="plan-desc">Unlimited habits, no ads, themes, stats, and more.</p>
+    </div>
+  </a>
+  <a class="plan-link" href="mailto:ashalokme@gmail.com?subject=Interested%20in%20Yearly%20Pro%20Plan">
+    <div class="plan best">
+      <span class="plan-tag">Yearly · Best value</span>
+      <div class="plan-name">Pro</div>
+      <span class="plan-price">₹399<span>/year</span></span>
+      <p class="plan-desc">Same as monthly, at a third of the annual price.</p>
+    </div>
+  </a>
+  <a class="plan-link" href="mailto:ashalokme@gmail.com?subject=Interested%20in%20Lifetime%20Pro%20Plan">
+    <div class="plan">
+      <span class="plan-tag">Lifetime</span>
+      <div class="plan-name">Pro</div>
+      <span class="plan-price">₹799<span> once</span></span>
+      <p class="plan-desc">Pay once. No subscription, ever.</p>
+    </div>
+  </a>
+</div>
     </div>
   </section>
 
@@ -412,7 +420,7 @@
       </div>
       <div class="links">
         <a href="https://sites.google.com/view/habit-tracker-privaciy-policy/home">Privacy Policy</a>
-        <a href="mailto:ashalokme@gmail.com">Contact</a>
+        <a href="mailto:ashalokme@gmail.com">ashalokme@gmail.com</a>
       </div>
     </div>
   </footer>
