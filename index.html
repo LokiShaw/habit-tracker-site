@@ -191,8 +191,13 @@
     flex: 0 0 auto; width: 200px; margin: 0;
     scroll-snap-align: start;
   }
+  .shot { overflow: hidden; border-radius: 16px; }
   .shot img {
     border-radius: 16px; border: 1px solid var(--line-dark);
+    transition: transform 0.25s ease;
+  }
+  .shot:hover img {
+    transform: scale(1.08);
   }
   .shot figcaption {
     font-family: 'JetBrains Mono'; font-size: 0.78rem;
@@ -405,7 +410,7 @@
       <span class="plan-tag">Lifetime</span>
       <div class="plan-name">Pro</div>
       <span class="plan-price">₹799<span> once</span></span>
-      <p class="plan-desc">Pay once. No subscription, ever.</p>
+      <p class="plan-desc">Pay once. No subscription, Full access for lifetime.</p>
     </div>
   </a>
 </div>
